@@ -4,7 +4,7 @@ import Section from './components/section/Section';
 import ContactForm from './components/contactForm/ContactForm';
 import ContactList from './components/contactList/ContactList';
 import Filter from './components/filter/Filter';
-import { saveLocalStorage, loadLocalStorage } from './components/localStorage/localStorage';
+import { loadLocalStorage, saveLocalStorage,  } from './components/localStorage/localStorage';
 
 
 const LS_CONTACTS_KEY = 'contacts';
